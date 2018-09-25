@@ -32,4 +32,7 @@ class AddTodo extends React.Component {
   }
 }
 
-export default AddTodo;
+export default connect(
+  null,
+  { addTodo }
+)(AddTodo);
