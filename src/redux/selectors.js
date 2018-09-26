@@ -1,3 +1,5 @@
+export const getTodosState = store => store.todos;
+
 export const getTodoList = store =>
   store && store.todos ? store.todos.allIds : [];
 
