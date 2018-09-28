@@ -1,5 +1,6 @@
 import React from "react";
 import cx from "classnames";
+import { connect } from "react-redux";
 
 const Todo = ({ todo }) => (
   <li
