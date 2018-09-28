@@ -20,4 +20,7 @@ const Todo = ({ todo }) => (
   </li>
 );
 
-export default Todo;
+export default connect(
+  null,
+  { toggleTodo }
+)(Todo);
